@@ -87,8 +87,8 @@ const bgColors = [
 
 const BOX_W = 250;
 const BOX_H = 60;
-const MAX_TIPS = 30; // 同时最多30个提示
-const INTERVAL = 400; // 每隔400ms新增一个
+const MAX_TIPS = 52; // 同时最多52个提示
+const INTERVAL = 200; // 每隔200ms新增一个
 
 export default function WarmTips() {
   const [started, setStarted] = useState(false);
